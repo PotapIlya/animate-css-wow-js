@@ -1,0 +1,95 @@
+.footer__row {
+    display: flex;
+    margin-bottom: 50px;
+    padding: 10px 0 10px;
+}
+.footer__col {
+    flex: 1 1 0;
+}
+.footer__contacts {
+    margin-top: 20px;
+}
+.footer__contacts span {
+    display: block;
+    margin-bottom: 15px;
+}
+.footer__contacts a {
+    color: #03A9F5;
+}
+.footer__contacts a:hover {
+    color: #0076CA;
+}
+.footer__contacts .fa {
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #03A9F5;
+}
+.footer__social-icons {
+    font-size: 22px;
+    margin-top: 30px;
+}
+.footer__social-icons .fa {
+    display: block;
+    margin-right: 10px;
+    color: #03A9F5;
+    transition: all 0.2s;
+}
+.footer__social-icons .fa:hover {
+    color: #000;
+}
+.footer__desc {
+    margin-bottom: 20px;
+}
+.footer__inner-title {
+    margin-bottom: 20px;
+}
+.footer__form input[type="text"],
+.footer__form input[type="email"] {
+    width: 100%;
+    outline: none;
+    max-width: 42%;
+    padding: 10px 20px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.footer__form input[type="text"]:focus,
+.footer__form input[type="email"]:focus,
+.footer__form textarea:focus  {
+   border: 1px solid $red;
+}
+.footer__form textarea {
+    outline: none;
+    display: block;
+    width: 88.4%;
+    border: 1px solid #ccc;
+    padding: 20px 30px 30px;
+    min-height: 250px;
+    margin-bottom: 10px;
+}
+.footer__form button{
+    border: none;
+    background-color:#ffd740;
+    color: $black;
+    display: block;
+    font-size: 17px;
+    padding: 8px 20px 8px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: all 0.2s;
+}
+.footer__form button:hover {
+    background-color: $blue;
+    color: #fff;
+}
+.footer__bottom {
+   background-color: $black;
+   min-height: 10vh;
+}
+.footer__bottom p {
+    text-align: center;
+    color: $white;
+    font-size: 24px;
+    text-shadow: 0 0 5px $red;
+    padding: 30px 0 30px;
+}

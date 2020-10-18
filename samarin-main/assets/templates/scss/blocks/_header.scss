@@ -1,0 +1,94 @@
+.header__top {
+    background: #F2F5F6;
+    color: #7E7E7E;
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    transition: all 200ms ease-out;
+    overflow: hidden;
+}
+
+.header__contacts {
+    float: left;
+}
+
+.header__contacts a {
+    color: #7E7E7E;
+    transition: all 0.2s;
+}
+
+.header__contacts a:hover {
+    color: #03A9F5;
+}
+
+.header__contacts .fa {
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #03A9F5;
+}
+
+.header__phone {
+    margin-right: 15px;
+}
+
+.header__email {
+    margin-right: 15px;
+}
+
+.header__social-icons {
+    float: right;
+    font-size: 22px;
+}
+
+.header__social-icons .fa {
+    display: block;
+    margin-right: 10px;
+    color: #03A9F5;
+    transition: all 0.2s;
+}
+
+.header__social-icons .fa:hover {
+    color: #000;
+}
+.header__content {
+    padding: 10px 0 10px;
+    min-height: 70px;
+   
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top__menu li {
+    display: inline-block;
+}
+
+.top__menu a {
+    color: #323232;
+    font-size: 16px;
+    line-height: 36px;
+    border: 1px solid transparent;
+    padding: 0px 16px;
+    transition: all .3s;
+}
+
+.top__menu a:hover,
+.top__menu a:focus,
+.top__menu a.active {
+    border-color: $yellow;
+}
+.header-fixed {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: $white;
+    min-height: 0;
+    padding: 5px 0 5px;
+    box-shadow: 0 0 12px $black;
+}

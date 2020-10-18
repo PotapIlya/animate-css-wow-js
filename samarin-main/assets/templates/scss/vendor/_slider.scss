@@ -1,0 +1,96 @@
+.slider__item {
+    background-position: 0 50%;
+    background-size: cover;
+    min-height: 48vh;
+}
+.slider__inner {
+    color: $white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 5%;
+    text-align: center;
+}
+.slider__title {
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px $red;
+}
+.slider__text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.slider__btn {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px 8px 24px;
+    border: 1px solid #ffc222;
+    border-right-width: 20px;
+    outline: none;
+    position: relative;
+}
+.slider__btn .fa-angle-right {
+    position: absolute;
+    top: 30%;
+    right: -13px;
+}
+.slick-arrow {
+    position: absolute;
+    top: 30%;
+    z-index: 3;
+}
+.slick-next {
+   right: 22%;
+}
+.slick-prev {
+   left: 20%;
+}
+.slick-next, .slick-prev {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    margin-top: -20px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 200ms ease-out;
+    opacity: 0.8;
+    outline: none;
+}
+.header-dots {
+   list-style: none;
+   position: absolute;
+   border: none;
+   bottom: 3%;
+   margin-left: 45%;
+}
+.header-dots button {
+    border: none;
+    background-color: $white;
+    outline: none;
+    padding: 0;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    font-size: 0;
+    display: block;
+    transition: all 0.2s;
+}
+.header-dots button:hover {
+    background-color: $red;
+}
+.header-dots li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.header-dots .slick-active button{
+    background-color: $red;
+}
+
+
+
+
